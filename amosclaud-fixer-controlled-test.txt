@@ -1,2 +1,2 @@
-Amosclaud controlled repair test.   
-This line intentionally contains trailing whitespace.    
+Amosclaud controlled repair test.
+This line intentionally contains trailing whitespace.
