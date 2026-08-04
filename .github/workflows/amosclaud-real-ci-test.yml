@@ -24,5 +24,8 @@ jobs:
       - name: Create isolated environment
         run: python -m venv .ci-venv
 
-      - name: Run tests without installing pytest
+      - name: Install test dependencies
+        run: .ci-venv/bin/python -m pip install --disable-pip-version-check pytest
+
+      - name: Run tests
         run: .ci-venv/bin/python -m pytest
